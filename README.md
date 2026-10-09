@@ -1,4 +1,32 @@
 
+<section style="background:linear-gradient(135deg,#101820,#243b55);
+color:white; padding:75px 20px; text-align:center;
+font-family:Arial,sans-serif;">
+
+  <h1 style="font-size:clamp(30px,5vw,48px);">
+    Welcome to Ngacha Auto Tech Kenya
+  </h1>
+
+  <p style="font-size:18px; max-width:700px; margin:20px auto; line-height:1.7;">
+    Your partner in automotive diagnostics, auto electrical
+    systems, vehicle maintenance and automotive technology.
+  </p>
+
+  <a href="#automotive-services"
+     style="display:inline-block; background:#f5a623;
+     color:#101820; padding:14px 25px; border-radius:6px;
+     text-decoration:none; font-weight:bold; margin:10px;">
+    Explore Our Services
+  </a>
+
+  <a href="#gallery"
+     style="display:inline-block; border:2px solid white;
+     color:white; padding:12px 25px; border-radius:6px;
+     text-decoration:none; font-weight:bold; margin:10px;">
+    View Gallery
+  </a>
+
+</section>
 <section id="gallery" style="padding:40px 20px; text-align:center; font-family:Arial,sans-serif;">
   <h2>Our Automotive Gallery</h2>
   <p>Explore automotive technology, diagnostics and vehicle systems.</p>
