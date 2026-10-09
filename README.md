@@ -1,4 +1,94 @@
 
+<section id="gallery" style="padding:40px 20px; text-align:center; font-family:Arial,sans-serif;">
+  <h2>Our Automotive Gallery</h2>
+  <p>Explore automotive technology, diagnostics and vehicle systems.</p>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; max-width:1000px; margin:25px auto;">
+
+    <div>
+      <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=600&q=80"
+           alt="Automotive engine repair"
+           style="width:100%; height:200px; object-fit:cover; border-radius:10px;">
+      <h3>Engine & Repairs</h3>
+    </div>
+
+    <div>
+      <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=600&q=80"
+           alt="Vehicle maintenance"
+           style="width:100%; height:200px; object-fit:cover; border-radius:10px;">
+      <h3>Vehicle Maintenance</h3>
+    </div>
+
+    <div>
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+           alt="Automotive technology"
+           style="width:100%; height:200px; object-fit:cover; border-radius:10px;">
+      <h3>Automotive Technology</h3>
+    </div>
+
+  </div>
+</section>
+<section id="gallery" style="padding:40px 20px; text-align:center; font-family:Arial,sans-serif;">
+  <h2>Our Automotive Gallery</h2>
+  <p>Explore automotive technology, diagnostics and vehicle systems.</p>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; max-width:1000px; margin:25px auto;">
+
+    <div>
+      <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=600&q=80"
+           alt="Automotive engine repair"
+           style="width:100%; height:200px; object-fit:cover; border-radius:10px;">
+      <h3>Engine & Repairs</h3>
+    </div>
+
+    <div>
+      <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=600&q=80"
+           alt="Vehicle maintenance"
+           style="width:100%; height:200px; object-fit:cover; border-radius:10px;">
+      <h3>Vehicle Maintenance</h3>
+    </div>
+
+    <div>
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+           alt="Automotive technology"
+           style="width:100%; height:200px; object-fit:cover; border-radius:10px;">
+      <h3>Automotive Technology</h3>
+    </div>
+
+  </div>
+</section>
+<section id="support-us" style="background:#f2f7f4; padding:40px 20px; text-align:center; font-family:Arial,sans-serif;">
+  <div style="max-width:600px; margin:auto; background:white; padding:28px 20px; border-radius:14px; box-shadow:0 4px 15px rgba(0,0,0,0.08);">
+
+    <h2 style="color:#168447;">💚 Support Ngacha Auto Tech Kenya</h2>
+
+    <p>
+      Support our automotive learning, technology and business growth
+      through M-Pesa.
+    </p>
+
+    <div style="background:#e9f7ef; padding:18px; border-radius:10px; margin:20px 0;">
+      <h3 style="color:#168447;">M-Pesa Support</h3>
+      <p><strong>Payment method:</strong> Send Money</p>
+      <p><strong>Phone number:</strong> YOUR_MPESA_NUMBER</p>
+      <p><strong>Account name:</strong> YOUR_ACCOUNT_NAME</p>
+    </div>
+
+    <a href="https://wa.me/2547XXXXXXXX?text=Hello%20Ngacha%20Auto%20Tech%20Kenya%2C%20please%20send%20me%20your%20M-Pesa%20support%20details."
+       target="_blank"
+       rel="noopener noreferrer"
+       style="display:inline-block; background:#168447; color:white;
+       padding:14px 24px; border-radius:8px; text-decoration:none;
+       font-weight:bold;">
+      Support Us via M-Pesa
+    </a>
+
+    <p style="font-size:13px; color:#555; margin-top:18px;">
+      Please confirm the recipient's name before sending money.
+    </p>
+
+  </div>
+</section>
 <section style="background:linear-gradient(135deg,#101820,#243b55);
 color:white; padding:75px 20px; text-align:center;
 font-family:Arial,sans-serif;">
