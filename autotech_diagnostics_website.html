@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Automotive diagnostics, CAN bus and module diagnostics, car wiring, alarms, cameras, radios, DTC scanning and programming services.">
+  <title>AutoTech Diagnostics & Wiring | Automotive Electronics</title>
+  <style>
+    :root{--bg:#08111f;--panel:#101e31;--panel2:#14263d;--text:#eef5ff;--muted:#b3c2d7;--accent:#38bdf8;--accent2:#8b5cf6;--line:#2b3d55;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(8,17,31,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}.brand{font-weight:800;letter-spacing:.3px}.brand span{color:var(--accent)}
+    nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap;font-size:.92rem;color:var(--muted)}nav a:hover{color:var(--accent)}
+    .btn{display:inline-block;background:var(--accent);color:#03111d;padding:12px 18px;border-radius:9px;font-weight:800;border:0;cursor:pointer}.btn.secondary{background:transparent;color:var(--text);border:1px solid var(--line)}
+    .hero{padding:84px 0 70px;background:radial-gradient(ellipse at 80% 20%,rgba(139,92,246,.22),transparent 35%),radial-gradient(ellipse at 10% 40%,rgba(56,189,248,.16),transparent 35%)}
+    .eyebrow{color:var(--accent);font-size:.8rem;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+    h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.05;letter-spacing:-2px;margin:14px 0 20px;max-width:850px}
+    h1 span{color:var(--accent)}.hero p{font-size:1.12rem;color:var(--muted);max-width:690px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:36px;color:var(--muted);font-size:.92rem}.trust span:before{content:"✓";color:var(--accent);font-weight:bold;margin-right:8px}
+    section{padding:68px 0}.section-head{max-width:700px;margin-bottom:30px}.section-head h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:8px 0 12px}.section-head p{color:var(--muted);margin:0}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(160deg,var(--panel),#0d1929);border:1px solid var(--line);border-radius:16px;padding:23px}.icon{width:43px;height:43px;display:grid;place-items:center;border-radius:12px;background:rgba(56,189,248,.12);color:var(--accent);font-weight:900;font-size:1.25rem;margin-bottom:14px}
+    .card h3{margin:0 0 8px;font-size:1.12rem}.card p{margin:0;color:var(--muted);font-size:.95rem}
+    .band{background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:center}.list{padding:0;list-style:none}.list li{padding:10px 0;border-bottom:1px solid var(--line);color:var(--muted)}.list li:before{content:"→";color:var(--accent);font-weight:bold;margin-right:10px}
+    .callout{background:linear-gradient(135deg,#12304a,#1c1b46);border:1px solid #36516f;border-radius:18px;padding:30px}.callout h3{font-size:1.6rem;margin:0 0 10px}.callout p{color:var(--muted)}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{border-left:3px solid var(--accent);padding:4px 0 4px 18px}.step strong{display:block;font-size:1.05rem;margin-bottom:6px}.step p{color:var(--muted);margin:0}
+    .contact{display:grid;grid-template-columns:1fr 1fr;gap:24px}.contact-box{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:26px}.contact-box p{color:var(--muted)}
+    label{display:block;margin:12px 0 6px;font-size:.92rem;color:var(--muted)}input,select,textarea{width:100%;padding:12px;border-radius:8px;border:1px solid var(--line);background:#08111f;color:var(--text);font:inherit}textarea{min-height:110px;resize:vertical}
+    footer{padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .note{font-size:.85rem;color:var(--muted)}.small-link{color:var(--accent);text-decoration:underline}
+    @media(max-width:800px){nav{display:none}.grid{grid-template-columns:repeat(2,1fr)}.two,.contact{grid-template-columns:1fr}.steps{grid-template-columns:1fr}}
+    @media(max-width:540px){.grid{grid-template-columns:1fr}.hero{padding:58px 0}.nav{padding:12px 0}section{padding:52px 0}h1{letter-spacing:-1px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home">AUTO<span>TECH</span> DIAGNOSTICS</a>
+    <nav aria-label="Main navigation">
+      <a href="#services">Services</a><a href="#modules">Vehicle modules</a><a href="#process">How it works</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="#contact">Book a service</a>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div class="eyebrow">Automotive electronics • Wiring • Diagnostics</div>
+      <h1>Smart solutions for <span>modern vehicles.</span></h1>
+      <p>Automotive wiring, electronic diagnostics and installation services—explained clearly and handled with care. From warning lights and communication faults to alarms, cameras and audio systems.</p>
+      <div class="actions">
+        <a class="btn" href="#contact">Request an appointment</a>
+        <a class="btn secondary" href="#services">Explore services</a>
+      </div>
+      <div class="trust"><span>Fault-code scanning</span><span>Electrical troubleshooting</span><span>Accessory installation</span></div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">What we do</div><h2>Automotive electrical services</h2><p>Choose a service below or contact us with your vehicle model, year and symptoms so we can discuss the next step.</p></div>
+      <div class="grid">
+        <article class="card"><div class="icon">⌁</div><h3>CAN Bus Diagnostics</h3><p>Investigating vehicle communication faults, network-related warning lights and module communication errors using suitable diagnostic procedures.</p></article>
+        <article class="card"><div class="icon">🔐</div><h3>Immobilizer Systems</h3><p>Immobilizer fault diagnosis and authorized key-system support, subject to vehicle compatibility and proof of ownership.</p></article>
+        <article class="card"><div class="icon">▦</div><h3>BCM Diagnostics</h3><p>Body Control Module checks for central locking, lighting, windows, wipers and other body-electronics concerns.</p></article>
+        <article class="card"><div class="icon">⚙</div><h3>TCM Diagnostics</h3><p>Transmission Control Module fault-code checks and electrical diagnosis for gearbox-related complaints.</p></article>
+        <article class="card"><div class="icon">◉</div><h3>ECM / ECU Diagnostics</h3><p>Engine-control fault scanning, live-data checks and electrical troubleshooting to help identify the cause of engine issues.</p></article>
+        <article class="card"><div class="icon">⌕</div><h3>DTC Reading & Clearing</h3><p>Read and interpret diagnostic trouble codes, review relevant live data and verify repairs. Clearing a code alone may not fix the cause.</p></article>
+        <article class="card"><div class="icon">ϟ</div><h3>General Car Wiring</h3><p>Electrical fault tracing, wiring repairs, connector checks, fuse and relay diagnosis, and accessory wiring.</p></article>
+        <article class="card"><div class="icon">◉</div><h3>Alarm & Central Locking</h3><p>Car alarm installation, remote-locking setup and troubleshooting, with safe wiring and correct circuit identification.</p></article>
+        <article class="card"><div class="icon">▣</div><h3>Reverse & Dash Cameras</h3><p>Reverse camera and dash camera installation, power connections, display checks and tidy cable routing.</p></article>
+        <article class="card"><div class="icon">♫</div><h3>Radio & Audio Installation</h3><p>Car radio, head-unit, speaker and related accessory installation with attention to correct power and speaker wiring.</p></article>
+        <article class="card"><div class="icon">↻</div><h3>Programming & Reprogramming</h3><p>Supported module configuration, software updates and programming services where vehicle, tool and manufacturer procedures allow.</p></article>
+        <article class="card"><div class="icon">⌁</div><h3>Sensor & Wiring Checks</h3><p>Sensor circuit testing, power and ground checks, connector inspection and diagnostic-scan support.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="modules">
+    <div class="wrap two">
+      <div>
+        <div class="eyebrow">Vehicle electronics</div>
+        <h2>Understand the system—not just the warning light.</h2>
+        <p style="color:var(--muted)">Modern vehicles rely on control modules and communication networks. Proper diagnosis combines scan-tool information with wiring diagrams, electrical tests and the correct repair procedure.</p>
+        <ul class="list">
+          <li><strong>CAN Bus:</strong> communication between vehicle control modules</li>
+          <li><strong>ECM / ECU:</strong> engine management and related inputs/outputs</li>
+          <li><strong>TCM:</strong> electronic transmission control</li>
+          <li><strong>BCM:</strong> body functions such as lighting and locking</li>
+          <li><strong>Immobilizer:</strong> authorized starting and anti-theft functions</li>
+        </ul>
+      </div>
+      <div class="callout">
+        <div class="eyebrow">Before a diagnosis</div>
+        <h3>Give us the right details.</h3>
+        <p>Vehicle make and model, year, engine type, dashboard warning lights, symptoms, and any diagnostic trouble codes help narrow down the fault.</p>
+        <a class="btn" href="#contact">Send vehicle details</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Simple process</div><h2>From problem to next step</h2><p>A clear process helps avoid unnecessary parts replacement and makes the work easier to understand.</p></div>
+      <div class="steps">
+        <div class="step"><strong>1. Describe the issue</strong><p>Tell us the vehicle details, symptoms and when the problem occurs.</p></div>
+        <div class="step"><strong>2. Diagnose and confirm</strong><p>Use appropriate scans, visual inspection and electrical tests to investigate the cause.</p></div>
+        <div class="step"><strong>3. Discuss the repair</strong><p>Review findings, estimated cost and next steps before proceeding with work.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="contact">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Get in touch</div><h2>Tell us what your vehicle needs.</h2><p>Replace the sample contact details below with your real business information before publishing.</p></div>
+      <div class="contact">
+        <div class="contact-box">
+          <h3>Contact details</h3>
+          <p><strong>Business:</strong> AutoTech Diagnostics & Wiring <span class="note">(sample name—change as needed)</span></p>
+          <p><strong>Location:</strong> Eldoret, Kenya <span class="note">(edit if different)</span></p>
+          <p><strong>Phone / WhatsApp:</strong> +254 7XX XXX XXX <span class="note">(replace with your number)</span></p>
+          <p><strong>Working hours:</strong> By appointment</p>
+          <p class="note">Do not publish this site until you replace the sample contact details.</p>
+        </div>
+        <div class="contact-box">
+          <h3>Service enquiry</h3>
+          <form id="enquiryForm">
+            <label for="name">Your name</label><input id="name" name="name" placeholder="Enter your name" required>
+            <label for="vehicle">Vehicle make, model and year</label><input id="vehicle" name="vehicle" placeholder="e.g. Toyota Voxy 2010" required>
+            <label for="service">Service needed</label>
+            <select id="service" name="service">
+              <option>CAN Bus / module diagnostics</option><option>ECM / TCM / BCM diagnostics</option><option>Immobilizer / key-system support</option><option>Alarm / central locking</option><option>Camera installation</option><option>Radio / audio installation</option><option>DTC reading</option><option>Programming / reprogramming</option><option>General wiring / other</option>
+            </select>
+            <label for="details">Describe the issue</label><textarea id="details" name="details" placeholder="Warning lights, symptoms or fault codes…"></textarea>
+            <button class="btn" type="submit" style="margin-top:14px">Prepare enquiry message</button>
+            <p class="note" id="formMessage" aria-live="polite">This demo form prepares a message on your device; it does not send information to a server.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> AutoTech Diagnostics & Wiring</span><span>Automotive electronics • Wiring • Diagnostics</span></div></footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('enquiryForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const data = new FormData(e.target);
+    const msg = `Service enquiry\nName: ${data.get('name')}\nVehicle: ${data.get('vehicle')}\nService: ${data.get('service')}\nDetails: ${data.get('details') || 'Not provided'}`;
+    const message = document.getElementById('formMessage');
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(msg).then(() => { message.textContent = 'Enquiry copied. You can paste it into WhatsApp or SMS.'; }).catch(() => { message.textContent = msg; });
+    } else {
+      message.textContent = msg;
+    }
+  });
+</script>
+</body>
+</html>
