@@ -1,4 +1,33 @@
 
+<section id="gallery" style="padding:40px 20px; text-align:center; font-family:Arial,sans-serif;">
+  <h2>Our Automotive Gallery</h2>
+  <p>Explore automotive technology, diagnostics and vehicle systems.</p>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; max-width:1000px; margin:25px auto;">
+
+    <div>
+      <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=600&q=80"
+           alt="Automotive engine repair"
+           style="width:100%; height:200px; object-fit:cover; border-radius:10px;">
+      <h3>Engine & Repairs</h3>
+    </div>
+
+    <div>
+      <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=600&q=80"
+           alt="Vehicle maintenance"
+           style="width:100%; height:200px; object-fit:cover; border-radius:10px;">
+      <h3>Vehicle Maintenance</h3>
+    </div>
+
+    <div>
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+           alt="Automotive technology"
+           style="width:100%; height:200px; object-fit:cover; border-radius:10px;">
+      <h3>Automotive Technology</h3>
+    </div>
+
+  </div>
+</section>
 <a href="https://wa.me/254112791594"
    target="_blank"
    style="position:fixed; bottom:20px; right:20px;
