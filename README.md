@@ -1,4 +1,13 @@
 
+<a href="https://wa.me/254112791594"
+   target="_blank"
+   style="position:fixed; bottom:20px; right:20px;
+   background:#25D366; color:white; padding:14px 20px;
+   border-radius:30px; text-decoration:none;
+   font-family:Arial,sans-serif; font-weight:bold;
+   box-shadow:0 3px 10px #999; z-index:9999;">
+   💬 Contact Us on WhatsApp
+</a>
 <section id="automotive-services" style="padding:40px 20px; background:#f4f6f8; font-family:Arial,sans-serif;">
   <h2 style="text-align:center; color:#123456;">Our Automotive Services</h2>
   <p style="text-align:center;">Reliable automotive solutions from Ngacha Auto Tech Kenya.</p>
