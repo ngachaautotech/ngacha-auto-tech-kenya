@@ -74,7 +74,7 @@
       <p><strong>Account name:</strong> YOUR_ACCOUNT_NAME</p>
     </div>
 
-    <a href="https://wa.me/2547XXXXXXXX?text=Hello%20Ngacha%20Auto%20Tech%20Kenya%2C%20please%20send%20me%20your%20M-Pesa%20support%20details."
+    <a href="https://wa.me/254112791594?text=Hello%20Ngacha%20Auto%20Tech%20Kenya%2C%20please%20send%20me%20your%20M-Pesa%20support%20details."
        target="_blank"
        rel="noopener noreferrer"
        style="display:inline-block; background:#168447; color:white;
